@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
 body{
     margin: 0 auto;
 
@@ -159,4 +161,63 @@ figcaption{
 figcaption span{
     color:#888;
 }
+.artcsec{
+    margin-top:1050px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.artcsec article{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.artcsec article a,time{
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    color: #000;
+}
+.artcsec article time{
 
+font-size: 0.8125rem;
+line-height: 1rem;
+color: #333;
+margin-top: 15px;
+}
+.artcsec .inflation{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*border: 3px solid black;*/
+}
+.infl_img{
+    width: 230px;
+    height: 112px;
+    /*border: 3px solid green;*/
+}
+.inflimg_cont{
+    width: 240px;
+    margin:15px;
+   /* border: 3px solid red;*/
+}
+.inflimg_cont figcaption
+{
+    /*border: 1px solid gold;*/
+    margin: 0;
+    width: 236px;
+    text-align: justify;
+    word-spacing: 0px;
+}
+.artcsec .inflation_container{
+    width: 100%;
+    margin-top:2342px;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid blueviolet;*/
+}
