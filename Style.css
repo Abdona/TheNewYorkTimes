@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+body{
+    margin: 0 auto;
+
+}
+/*
+.newyorktimes{
+    size: 20%;
+    color: saddlebrown;
+}
+
+.inflation_container{
+    display: flex;
+}
+.inflation_container>figure{
+    background-color: salmon;
+    width: 50%;
+    height: 50%;
+}
+.infl_img{
+    
+}
+*/
+/*<p Class="Article_Text"><h1>The Theory of Inflation</h1>
+                Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
+</p> */
+.Navigationbar{
+    background-color: #fff;
+    position: fixed;
+    z-index: 200;
+ 
+}
+.Navigationbar ul{
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+}
+.Navigationbar ul li{
+    float: left;
+    width: fit-content;
+}
+.Nav-left ul li h3{
+    display: inline;
+}
+.Navigationbar ul li div
+{
+    width: fit-content;
+
+}
+/*.Navigationbar>ul>:first-child *{
+    margin-right: 0;
+}*/
+.Navigationbar ul li .Nav-center{
+    padding-top: 13px;
+    margin-left: 327px;
+} 
+.Navigationbar ul li .Nav-right {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 323px;
+}
+#subscribe {
+    background-color: #567b95;
+    border: 1px solid #326891;
+    border-radius: 3px;
+    cursor: pointer;
+    padding:11px 12px 8px;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 11px;
+    font-family:'Libre Franklin', sans-serif;
+}
+.Nav-left *{
+    margin-left: 10px;
+}
+.Nav-left{
+    padding-top: 13px;
+}
+.allfont{
+    font-weight: bold;
+    color: #000;
+    font-size: 14.25px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#left-navigatebutt{
+    border-radius: 3px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 11px;
+    font-weight: 500;
+}
+#account{
+    border: 0;
+    background-color: #fff;
+}
+.css-1w4a6s9{
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+}
+.main-sec{
+    position: absolute;
+    margin-top: 200px;
+    width: 100%;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+#head h1{
+    text-align: justify;
+    font-style: italic;
+    font-weight: 700 ;
+    color: #121212;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+#fonaws{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #ebebeb;
+    padding-top: 8px;
+    width: 50%;
+}
+.main-sec #fonaws svg{
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.main-sec #fonaws .icon{
+    border:1px solid #eee;
+    border-radius: 100%;
+    background-color:#eee;
+}
+.img-sec{
+    margin-top: 430px;
+    width: 100%;
+}
+.img-sec div{
+    display: flex;
+    justify-content: center;
+}
+figcaption{
+    text-align: justify;
+    width: 58%;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #666;
+    margin-left: 143px;
+}
+figcaption span{
+    color:#888;
+}
+
