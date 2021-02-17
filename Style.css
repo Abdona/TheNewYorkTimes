@@ -167,20 +167,20 @@ figcaption span{
     display: flex;
     justify-content: center;
 }
-.artcsec article{
+.artcsec .artbody{
     text-align: justify;
     width: 600px;
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.artcsec article a,time{
+.artcsec .artbody a,time{
     text-decoration: none;
     display: block;
     font-weight: 500;
     color: #000;
 }
-.artcsec article time{
+.artcsec .artbody time{
 
 font-size: 0.8125rem;
 line-height: 1rem;
@@ -220,4 +220,8 @@ margin-top: 15px;
     display: flex;
     justify-content: center;
     /*border: 1px solid blueviolet;*/
+}
+.artcsec .artbodtwo{
+    position: absolute;
+    margin-top: 3000px;
 }
