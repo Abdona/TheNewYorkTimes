@@ -123,20 +123,23 @@ body{
     font-size: 2.5rem;
     line-height: 3rem;
 }
-#fonaws{
+.fonaws{
     display: block;
+    
+}
+.socialupper{
+    border-top: 1px solid #ebebeb;
     margin-left: auto;
     margin-right: auto;
-    border-top: 1px solid #ebebeb;
-    padding-top: 8px;
     width: 50%;
+    padding-top: 8px;
 }
-.main-sec #fonaws svg{
+.main-sec .fonaws svg{
     margin: 10px;
     padding: 5px;
     cursor: pointer;
 }
-.main-sec #fonaws .icon{
+.main-sec .fonaws .icon{
     border:1px solid #eee;
     border-radius: 100%;
     background-color:#eee;
@@ -148,6 +151,10 @@ body{
 .img-sec div{
     display: flex;
     justify-content: center;
+}
+.img-sec img
+{
+    cursor: pointer;
 }
 figcaption{
     text-align: justify;
@@ -221,7 +228,72 @@ margin-top: 15px;
     justify-content: center;
     /*border: 1px solid blueviolet;*/
 }
+.inflation_container strong{
+    color: #000;
+}
+.inflation>figcaption{
+    margin-right: 393px;
+}
+.inflation>figcaption::before{
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    margin-bottom: 14px;
+}
 .artcsec .artbodtwo{
     position: absolute;
     margin-top: 3000px;
+}
+.artbodtwo #youvide{
+    margin: 0;
+}
+.artbodtwo iframe{
+    width: 608px;
+    height: 387px;
+}
+.artbodtwo #youvide figcaption{
+    margin: 0;
+    width: 82%;
+}
+.Article_footer
+{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+.artcsec .Article_footer a{
+    display: inline;
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+    margin-left: 5px;
+
+}
+.footercomment{
+    margin-top: 20px;
+}
+.footercomment button{
+    background-color: rgb(50, 104, 145);
+    color: #fff;
+    border-radius: 3px;
+    border:1px solid rgb(50, 104, 145);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5rem;
+    width: 328px;
+    cursor: pointer;
+    padding: 5px 0;
+}
+.artcsec .Article_footer .footercomment div{
+    display: inline;
+    width: 100%;
+}
+.recomimg{
+    width: 82px;
+    height: 82px;
+}
+.recomartc{
+    border: 1px solid red;
 }
