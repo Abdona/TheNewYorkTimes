@@ -184,7 +184,14 @@ figcaption span {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.artcsec .artbody a,time {
+.artcsec .artbody a{
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  color: #000;
+}
+
+.artcsec .artbody time{
   text-decoration: none;
   display: block;
   font-weight: 500;
