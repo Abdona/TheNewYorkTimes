@@ -13,7 +13,7 @@ body {
 
 .Navigationbar ul {
   list-style: none;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
   overflow: hidden;
 }
@@ -22,8 +22,14 @@ body {
   float: left;
   width: fit-content;
 }
+
 .Nav-left ul li h3 {
   display: inline;
+}
+
+.img-sec div {
+  display: flex;
+  justify-content: center;
 }
 
 .Navigationbar ul li div {
@@ -46,11 +52,11 @@ body {
   border: 1px solid #326891;
   border-radius: 3px;
   cursor: pointer;
-  padding:11px 12px 8px;
+  padding: 11px 12px 8px;
   white-space: nowrap;
   color: #fff;
   font-size: 11px;
-  font-family:'Libre Franklin', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .Nav-left * {
@@ -82,6 +88,7 @@ body {
   border: 0;
   background-color: #fff;
 }
+
 .css-1w4a6s9 {
   display: inline-block;
   width: 9px;
@@ -89,6 +96,11 @@ body {
   margin-left: 6px;
   margin-bottom: 2px;
   vertical-align: middle;
+}
+
+.alangut {
+  width: 906px ; 
+  height: 510px ;
 }
 
 .main-sec {
@@ -105,7 +117,7 @@ body {
 #head h1 {
   text-align: justify;
   font-style: italic;
-  font-weight: 700 ;
+  font-weight: 700;
   color: #121212;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -130,19 +142,14 @@ body {
 }
 
 .main-sec .fonaws .icon {
-  border:1px solid #eee;
+  border: 1px solid #eee;
   border-radius: 100%;
-  background-color:#eee;
+  background-color: #eee;
 }
 
 .img-sec {
   margin-top: 430px;
   width: 100%;
-}
-
-.img-sec div {
-    display:flex;
-    justify-content: center;
 }
 
 .img-sec img {
@@ -175,7 +182,7 @@ figcaption span {
   width: 600px;
   font-size: 1.25rem;
   line-height: 1.875rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .artcsec .artbody a,time {
@@ -198,19 +205,16 @@ figcaption span {
   margin: 0;
   justify-content: center;
   flex-wrap: wrap;
-    /*border: 3px solid black;*/
 }
 
 .infl_img {
   width: 230px;
   height: 112px;
-    /*border: 3px solid green;*/
 }
 
 .inflimg_cont {
   width: 240px;
-  margin:15px;
-   /* border: 3px solid red;*/
+  margin: 15px;
 }
 
 .inflimg_cont figcaption {
@@ -222,8 +226,8 @@ figcaption span {
 
 .artcsec .inflation_container {
   width: 100%;
-  margin-top:2342px;
-  position:absolute;
+  margin-top: 2342px;
+  position: absolute;
   display: flex;
   justify-content: center;
 }
@@ -237,7 +241,6 @@ figcaption span {
 }
 
 .inflation>figcaption::before {
-  content: "";
   width: 60px;
   height: 1px;
   background-color: #000;
@@ -285,7 +288,7 @@ figcaption span {
   background-color: rgb(50, 104, 145);
   color: #fff;
   border-radius: 3px;
-  border:1px solid rgb(50, 104, 145);
+  border: 1px solid rgb(50, 104, 145);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -305,7 +308,7 @@ figcaption span {
   margin-left: -305px;
   margin-top: 5px;
   display: grid;
-  grid-gap:41px;
+  grid-gap: 41px;
   grid-template-columns: 70% 30%;
 }
 
@@ -372,8 +375,9 @@ figcaption span {
 }
 
 aside {
- margin-left: 7px;
+  margin-left: 7px;
 }
+
 .artbody aside a {
   font-size: 1.1875rem;
   line-height: 1.4375rem;
@@ -407,6 +411,7 @@ aside {
 .sugg { 
   height: fit-content;
 }
+
 .morefmspce {
   margin-top: 127px;
 }
@@ -422,7 +427,7 @@ aside {
 }
 
 .morefmspcecont .morefmspcecont1 {
- display: flex;
+  display: flex;
 }
 
 .editorspicksart {
@@ -437,7 +442,7 @@ aside {
   display: flex;
   justify-content: space-between;
   width: 1000px;
-  margin-left:-345px;
+  margin-left: -345px;
 }
 
 .bottnav ul {
@@ -453,7 +458,7 @@ aside {
 }
 
 .navcont div a img {
-  margin-left:-305px;
+  margin-left: -305px;
 }
 
 .section-title {
@@ -477,4 +482,3 @@ aside {
   width: 189%;
   margin-bottom: 20px;
   }
-  
