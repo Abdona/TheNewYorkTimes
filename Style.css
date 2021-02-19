@@ -410,8 +410,36 @@ aside{
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    margin:-300px;
+    margin-left:-345px;
 }
 .bottnav ul{
     list-style: none;
 }
+.navcont{
+    margin-top: -900px;
+}
+.navcont div ul{
+    margin-right: 100px;
+    font-size: 0.8rem;
+}
+.navcont div a img{
+    margin-left:-305px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.sublist{
+    border-left: 1px solid rgb(226, 226, 226);
+}
+.navcont div ul li{
+    line-height: 20px;
+}
+.concerns {
+    display: flex;
+    font-size: 10px;
+    margin-left: -283px;
+    justify-content: space-around;
+    width: 189%;
+    margin-bottom: 20px;
+  }
