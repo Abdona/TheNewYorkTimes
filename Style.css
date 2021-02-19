@@ -201,6 +201,16 @@ figcaption span {
   color: #000;
 }
 
+.time{
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin-top: 15px;
+}
+
 .artcsec .artbody time {
   text-decoration: none;
   display: block;
@@ -351,7 +361,6 @@ figcaption span {
 
 .sugg {
   margin-bottom: 822px;
-  height: fit-content;
 }
 
 .sugg .artscont {
@@ -452,6 +461,7 @@ aside {
 .navcont {
   margin-top: -900px;
 }
+
 .navcont div ul {
   margin-right: 100px;
   font-size: 0.8rem;
