@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 
 body {
   margin: 0 auto;
@@ -34,7 +34,7 @@ body {
 .Navigationbar ul li .Nav-center {
   padding-top: 13px;
   margin-left: 327px;
-} 
+}
 
 .Navigationbar ul li .Nav-right {
   padding-top: 5px;
@@ -51,7 +51,7 @@ body {
   white-space: nowrap;
   color: #fff;
   font-size: 11px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .Nav-left * {
@@ -66,7 +66,7 @@ body {
   font-weight: bold;
   color: #000;
   font-size: 14.25px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 #left-navigatebutt {
@@ -84,8 +84,8 @@ body {
   background-color: #fff;
 }
 
-.bicepcont { 
-  width: 600px;  
+.bicepcont {
+  width: 600px;
 }
 
 .css-1w4a6s9 {
@@ -98,7 +98,7 @@ body {
 }
 
 .alangut {
-  width: 906px; 
+  width: 906px;
   height: 510px;
 }
 
@@ -123,7 +123,7 @@ body {
 }
 
 .fonaws {
-  display: block;  
+  display: block;
 }
 
 .socialupper {
@@ -160,7 +160,7 @@ figcaption {
   width: 58%;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   color: #666;
   margin-left: 143px;
 }
@@ -181,17 +181,17 @@ figcaption span {
   width: 600px;
   font-size: 1.25rem;
   line-height: 1.875rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.artcsec .artbody a{
+.artcsec .artbody a {
   text-decoration: none;
   display: block;
   font-weight: 500;
   color: #000;
 }
 
-.artcsec .artbody time{
+.artcsec .artbody time {
   text-decoration: none;
   display: block;
   font-weight: 500;
@@ -377,7 +377,7 @@ figcaption span {
 
 .recomartc figcaption {
   margin-left: 12px;
-  line-height: 2.5rem;  
+  line-height: 2.5rem;
 }
 
 aside {
@@ -404,7 +404,7 @@ aside {
 }
 
 .morefmspce div .figcpt {
-  margin-left:220px;
+  margin-left: 220px;
 }
 
 .desc {
@@ -414,7 +414,7 @@ aside {
   line-height: 1.2rem;
 }
 
-.sugg { 
+.sugg {
   height: fit-content;
 }
 
@@ -424,12 +424,13 @@ aside {
 
 .morefmspcecont {
   display: grid;
-  grid: 'area area'
-  'area area area';
+  grid:
+    "area area"
+    "area area area";
 }
 
 .morefmspcecont div {
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .morefmspcecont .morefmspcecont1 {
@@ -487,4 +488,4 @@ aside {
   justify-content: space-around;
   width: 189%;
   margin-bottom: 20px;
-  }
+}
