@@ -184,6 +184,16 @@ figcaption span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.artbody aside a {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0;
+  width: 88%;
+}
+
 .artcsec .artbody a {
   text-decoration: none;
   display: block;
@@ -195,13 +205,9 @@ figcaption span {
   text-decoration: none;
   display: block;
   font-weight: 500;
-  color: #000;
-}
-
-.artcsec .artbody time {
+  color: #333;
   font-size: 0.8125rem;
   line-height: 1rem;
-  color: #333;
   margin-top: 15px;
 }
 
@@ -268,6 +274,11 @@ figcaption span {
   height: 387px;
 }
 
+.recomartc figcaption {
+  margin-left: 12px;
+  line-height: 2.5rem;
+}
+
 .artbodtwo #youvide figcaption {
   margin: 0;
   width: 82%;
@@ -304,9 +315,19 @@ figcaption span {
   padding: 5px 0;
 }
 
+.morefmspcecont div {
+  margin-right: 10px;
+}
+
 .recomartc div:nth-child(2) {
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.recomartc div:first-child {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
 }
 
 .artcsec .Article_footer .footercomment div {
@@ -330,6 +351,7 @@ figcaption span {
 
 .sugg {
   margin-bottom: 822px;
+  height: fit-content;
 }
 
 .sugg .artscont {
@@ -357,12 +379,6 @@ figcaption span {
   margin-left: 74px;
 }
 
-.recomartc div:first-child {
-  display: flex;
-  width: 100%;
-  cursor: pointer;
-}
-
 .recomartc p {
   font-size: 1rem;
   line-height: 1.25rem;
@@ -375,28 +391,13 @@ figcaption span {
   margin: 0;
 }
 
-.recomartc figcaption {
-  margin-left: 12px;
-  line-height: 2.5rem;
-}
-
 aside {
   margin-left: 7px;
 }
 
-.artbody aside a {
-  font-size: 1.1875rem;
-  line-height: 1.4375rem;
-  font-weight: 500;
-  color: rgb(18, 18, 18);
-  border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 15px 0;
-  width: 88%;
-}
-
 .morefmspce div img {
   width: 272.63px;
-  height: 181.75;
+  height: 181.75px;
 }
 
 .morefmspce div figure {
@@ -414,10 +415,6 @@ aside {
   line-height: 1.2rem;
 }
 
-.sugg {
-  height: fit-content;
-}
-
 .morefmspce {
   margin-top: 127px;
 }
@@ -427,10 +424,6 @@ aside {
   grid:
     "area area"
     "area area area";
-}
-
-.morefmspcecont div {
-  margin-right: 10px;
 }
 
 .morefmspcecont .morefmspcecont1 {
