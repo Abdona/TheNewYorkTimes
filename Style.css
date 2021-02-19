@@ -290,10 +290,128 @@ margin-top: 15px;
     display: inline;
     width: 100%;
 }
+.suggmoreditor_most{
+    width: 200%;
+    margin-left: -305px;
+    margin-top: 5px;
+    display: grid;
+    grid-gap:41px;
+    grid-template-columns: 70% 30%;
+}
+.suggmoreditor{
+    display: grid;
+    grid-template-rows: 15% 50% 25%;
+}
+.sugg{
+    margin-bottom: 822px;
+}
+.sugg .artscont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .recomimg{
     width: 82px;
     height: 82px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
 }
 .recomartc{
-    border: 1px solid red;
+    border: 1px solid gainsboro;
+    width: 30%;
+    margin: 0;
+
+}
+.recomartc div:first-child svg{
+    margin-top: 10px;
+    margin-left:74px; 
+}
+.recomartc div:nth-child(2){
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.recomartc div:first-child{
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+.recomartc p{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: justify;
+    width: 92%;
+}
+.recomartc figure{
+    width: 50%;
+    margin: 0;
+}
+.recomartc figcaption{
+    margin-left: 12px;
+    line-height: 2.5rem;
+    
+}
+aside{
+    margin-left: 7px;
+}
+.artbody aside a{
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    font-weight: 500;
+    color: rgb(18, 18, 18);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0;
+    width: 88%;
+}
+.morefmspce div img{
+    width: 272.63px;
+    height: 181.75;
+}
+.morefmspce div figure{
+    margin: 0;
+}
+.morefmspce div .figcpt{
+    margin-left:220px;
+}
+.desc{
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.sugg{
+    
+    height: fit-content;
+}
+.morefmspce{
+    margin-top: 127px;
+}
+.morefmspcecont{
+    /*border: 1px solid blue;*/
+    display: grid;
+    grid: 'area area'
+    'area area area';
+}
+.morefmspcecont div{
+    margin-right: 10px;
+    
+}
+.morefmspcecont .morefmspcecont1{
+    display: flex;
+}
+.editorspicksart{
+    display: flex;
+}
+.desced{
+    padding: 5px;
+}
+
+.bottnav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin:-300px;
+}
+.bottnav ul{
+    list-style: none;
 }
