@@ -4,7 +4,7 @@
 
 > The New York Times Newsletter.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/Assests/Images/Newyorktimememic.png)
 
 
 ## Built With

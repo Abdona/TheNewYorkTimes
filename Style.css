@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
-
+/*
 body {
   margin: 0 auto;
 }
@@ -56,20 +56,12 @@ body {
   font-family: "Libre Franklin", sans-serif;
 }
 
+.Nav-left * {
+  margin-left: 10px;
+}
+
 .Nav-left {
-  padding-top: 12px;
-}
-
-.Nav-left ul li {
-  margin-left: 18px;
-}
-
-.Nav-left ul {
-  height: 20px;
-}
-
-.hambbutt {
-  cursor: pointer;
+  padding-top: 13px;
 }
 
 .allfont {
@@ -77,6 +69,22 @@ body {
   color: #000;
   font-size: 14.25px;
   font-family: "Libre Franklin", sans-serif;
+}
+
+#left-navigatebutt {
+  border-radius: 3px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.Navigationbar ul li .Nav-left #left-navigatebutt .hambbutt {
+  color:red;
+  font-weight: 900;
+  border: 1px solid blue;
 }
 
 .bicepcont {
@@ -487,3 +495,4 @@ aside {
   width: 189%;
   margin-bottom: 20px;
 }
+*/
