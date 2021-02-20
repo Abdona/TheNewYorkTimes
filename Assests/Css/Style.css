@@ -23,6 +23,16 @@ body {
   float: left;
 }
 
+.edpickas h3 {
+  font-size: 14px;
+  width: calc(100% - 85px);
+  text-align: justify;
+  font-weight: 500;
+  line-height: 1.3;
+  word-spacing: 0;
+  margin: auto 0px auto 10px;
+}
+
 .Nav-left ul li h3 {
   display: inline;
 }
@@ -92,9 +102,12 @@ body {
   vertical-align: middle;
 }
 
+.img-sec img {
+  cursor: pointer;
+}
+
 .edpickas {
   width: 210px;
-  margin-left: 20px;
   position: absolute;
   margin-left: 683px;
   margin-top: -187px; 
@@ -107,19 +120,12 @@ body {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-.edpickas h3 {
-  font-size: 14px;
-  width: calc(100% - 85px);
-  text-align: justify;
-  margin-top: 20px;
-  font-weight: 500;
-  line-height: 1.3;
-  word-spacing: 0px;
-  margin: auto 0px auto 10px;
-}
-
 .pickcont {
   width: 210px;
+}
+
+.morefmspcecont div {
+  margin-right: 10px;
 }
 
 .edpickas div div {
@@ -181,10 +187,6 @@ body {
 .img-sec {
   margin-top: 430px;
   width: 100%;
-}
-
-.img-sec img {
-  cursor: pointer;
 }
 
 figcaption {
@@ -354,10 +356,6 @@ figcaption span {
   width: 328px;
   cursor: pointer;
   padding: 5px 0;
-}
-
-.morefmspcecont div {
-  margin-right: 10px;
 }
 
 .recomartc div:nth-child(2) {
