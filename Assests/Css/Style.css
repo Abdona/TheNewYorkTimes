@@ -92,6 +92,46 @@ body {
   vertical-align: middle;
 }
 
+.edpickas {
+  width: 210px;
+  margin-left: 20px;
+  position: absolute;
+  margin-left: 683px;
+  margin-top: -187px; 
+}
+
+.edpickas h5 {
+  padding: 5px;
+  width: 210px;
+  line-height: 3;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.edpickas h3 {
+  font-size: 14px;
+  width: calc(100% - 85px);
+  text-align: justify;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  word-spacing: 0px;
+  margin: auto 0px auto 10px;
+}
+
+.pickcont {
+  width: 210px;
+}
+
+.edpickas div div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.edpickas div img {
+  width: 76px;
+  height: 68px;
+}
+
 .alangut {
   width: 906px;
   height: 510px;
