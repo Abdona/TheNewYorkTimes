@@ -30,7 +30,7 @@ body {
   font-weight: 500;
   line-height: 1.3;
   word-spacing: 0;
-  margin: auto 0 auto 10;
+  margin: auto 0 auto 10px;
 }
 
 .Nav-left ul li h3 {
