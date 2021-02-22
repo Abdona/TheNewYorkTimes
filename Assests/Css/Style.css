@@ -378,18 +378,18 @@ figcaption span {
   width: 200%;
   margin-left: -305px;
   margin-top: 5px;
+  margin-bottom: 10px;
   display: grid;
   grid-gap: 41px;
   grid-template-columns: 70% 30%;
 }
 
-.suggmoreditor {
-  display: grid;
-  grid-template-rows: 15% 50% 25%;
-}
-
-.sugg {
-  margin-bottom: 822px;
+.suggmoreditor_most::after{
+  border-top: 2px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  height: 1px;
+  width: 140%;
+  content: "";
 }
 
 .sugg .artscont {
@@ -453,10 +453,6 @@ aside {
   line-height: 1.2rem;
 }
 
-.morefmspce {
-  margin-top: 127px;
-}
-
 .morefmspcecont {
   display: grid;
   grid:
@@ -466,6 +462,10 @@ aside {
 
 .morefmspcecont .morefmspcecont1 {
   display: flex;
+}
+
+.editorpicks {
+  border-top: 1px solid #000;
 }
 
 .editorspicksart {
@@ -487,13 +487,13 @@ aside {
   list-style: none;
 }
 
-.navcont {
-  margin-top: -900px;
+.navcont div ul {
+  margin-right: 20px;
+  font-size: 0.8rem;
 }
 
-.navcont div ul {
-  margin-right: 100px;
-  font-size: 0.8rem;
+.navcont div ul li {
+  width: 150px;
 }
 
 .navcont div a img {
@@ -510,7 +510,7 @@ aside {
 }
 
 .navcont div ul li {
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .concerns {
@@ -520,4 +520,35 @@ aside {
   justify-content: space-around;
   width: 189%;
   margin-bottom: 20px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+form {
+  display: none;
+}
+
+fieldset {
+  border-radius: 5%;
+}
+
+form ul {
+  list-style: none;
+}
+.revcom {
+  position: fixed;
+  right: 100px;
+  bottom: 0;
+}
+
+.revcom button {
+  border-radius: 10px;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 11px 12px 8px;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Libre Franklin", sans-serif;
 }
