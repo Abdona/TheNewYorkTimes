@@ -19,7 +19,9 @@
 ## Getting Started
 
 1.CLone The Repository locally on your Computer.
+
 2.Open The Directory,where you cloned the Repository.
+
 3.open the "index.html" file.
 
 ### Prerequisites
