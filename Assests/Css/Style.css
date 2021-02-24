@@ -16,6 +16,15 @@ form ul {
   list-style: none;
 }
 
+.fig3 {
+  margin: 0;
+}
+
+.fig3cap {
+  margin: 0;
+  width: 88%;
+}
+
 .Navigationbar ul {
   list-style: none;
   margin: 0;
@@ -95,6 +104,7 @@ form ul {
 
 .bicepcont {
   width: 600px;
+  height: 401.62px;
 }
 
 .css-1w4a6s9 {
@@ -153,12 +163,12 @@ form ul {
   width: 100%;
 }
 
-#head {
+.head {
   display: flex;
   justify-content: center;
 }
 
-#head h1 {
+.head h1 {
   text-align: justify;
   font-style: italic;
   font-weight: 700;
@@ -312,7 +322,7 @@ figcaption span {
   position: absolute;
 }
 
-.artbodtwo #youvide {
+.artbodtwo .youvide {
   margin: 0;
 }
 
@@ -326,7 +336,7 @@ figcaption span {
   line-height: 2.5rem;
 }
 
-.artbodtwo #youvide figcaption {
+.artbodtwo .youvide figcaption {
   margin: 0;
   width: 82%;
 }
