@@ -12,6 +12,10 @@ body {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
+form ul {
+  list-style: none;
+}
+
 .Navigationbar ul {
   list-style: none;
   margin: 0;
@@ -384,7 +388,7 @@ figcaption span {
   grid-template-columns: 70% 30%;
 }
 
-.suggmoreditor_most::after{
+.suggmoreditor_most::after {
   border-top: 2px solid rgb(226, 226, 226);
   border-bottom: 1px solid rgb(226, 226, 226);
   height: 1px;
@@ -494,6 +498,7 @@ aside {
 
 .navcont div ul li {
   width: 150px;
+  line-height: 25px;
 }
 
 .navcont div a img {
@@ -509,10 +514,6 @@ aside {
   border-left: 1px solid rgb(226, 226, 226);
 }
 
-.navcont div ul li {
-  line-height: 25px;
-}
-
 .concerns {
   display: flex;
   font-size: 10px;
@@ -524,16 +525,13 @@ aside {
 }
 
 form {
-  display: none;
+  display: block;
 }
 
 fieldset {
   border-radius: 5%;
 }
 
-form ul {
-  list-style: none;
-}
 .revcom {
   position: fixed;
   right: 100px;
@@ -541,7 +539,6 @@ form ul {
 }
 
 .revcom button {
-  border-radius: 10px;
   background-color: #567b95;
   border: 1px solid #326891;
   border-radius: 3px;
@@ -551,4 +548,12 @@ form ul {
   color: #fff;
   font-size: 11px;
   font-family: "Libre Franklin", sans-serif;
+}
+
+.frm {
+  display: none;
+}
+
+.formbutt button:hover ~ .formbutt .frm {
+  display: block;
 }
